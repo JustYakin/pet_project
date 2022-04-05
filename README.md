@@ -1,4 +1,4 @@
-<a href="https://www.figma.com/file/opueW3jMdtXDA4GcMsBmA8/Netflix-Landing-Page-Figma-Free?node-id=0%3A1">- netflix страница при открытии</a>
+<a href="https://www.figma.com/file/opueW3jMdtXDA4GcMsBmA8/Netflix-Landing-Page-Figma-Free?node-id=0%3A1">Netflix страница при открытии</a>
 
 
 
