@@ -1,5 +1,6 @@
 <a href="https://www.figma.com/file/opueW3jMdtXDA4GcMsBmA8/Netflix-Landing-Page-Figma-Free?node-id=0%3A1">Netflix страница при открытии</a>
-
+<br>
+<a href="https://www.figma.com/file/6cjKl9qjNh9M3LuEyf4gVb/Netflix-Interactive-Components-UI-(Community)?node-id=0%3A1">Netflix страница с фильмами</a>
 
 
 # Getting Started with Create React App
