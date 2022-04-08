@@ -1,6 +1,6 @@
-<a href="https://www.figma.com/file/VVbtX7mBAnGQE6PM09qRth/Netflix-Langing-Page-UI-Clone-(Community)?node-id=0%3A1">Netflix страница при открытии</a>
+<a href="https://www.figma.com/file/VVbtX7mBAnGQE6PM09qRth/Netflix-Langing-Page-UI-Clone-(Community)?node-id=0%3A1" target="_blank">Netflix страница при открытии</a>
 <br>
-<a href="https://www.figma.com/file/7bIVWVdtnQUP3RKf8cXVo1/Netflix-Clone-(Community)?node-id=0%3A1">Netflix страница с фильмами</a>
+<a href="https://www.figma.com/file/7bIVWVdtnQUP3RKf8cXVo1/Netflix-Clone-(Community)?node-id=0%3A1" target="_blank">Netflix страница с фильмами</a>
 
 
 
