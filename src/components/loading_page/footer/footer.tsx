@@ -21,6 +21,7 @@ function Footer():ReactElement {
   alignItems="flex-start"
   flexWrap= 'wrap'
   spacing={4}
+  marginBottom="50px"
 >
 
         <SuccessLink href="#" underline="hover">Questions? Contact us.</SuccessLink>
@@ -28,7 +29,7 @@ function Footer():ReactElement {
   direction="row"
   justifyContent="center"
   alignItems="flex-start"
-  spacing={12}
+  spacing={22}
 >
 
         <Stack
