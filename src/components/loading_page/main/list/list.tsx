@@ -2,11 +2,9 @@ import * as React from 'react';
 import Accordion, { AccordionProps } from '@mui/material/Accordion';
 import AccordionSummary, { AccordionSummaryProps } from '@mui/material/AccordionSummary';
 import AccordionDetails, { AccordionDetailsProps } from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
+import {Typography,TextField, Button, Container,Box} from '@mui/material';
 import { styled } from '@mui/material/styles';
 import AddIcon from '@mui/icons-material/Add';
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
 
 
 
@@ -77,10 +75,18 @@ const SuccessAccordion = styled(Accordion)<AccordionProps>(({ theme }) => ({
   }));
 
 function List() {
-  return (
-   <>
-   <h1 color='#fff'>Frequently Asked Questions</h1>
-      <SuccessAccordion sx={{margin:'auto'}}>
+  return (    
+    <Box
+      sx={{
+        width: "100hw",
+        height: "auto",
+        backgroundColor: '#000',  
+        margin:"50px 0",
+        borderBottom: "8px solid #222"
+      }}>
+   <Container maxWidth="xl">
+      <h1 color='#fff'>Frequently Asked Questions</h1>
+      <SuccessAccordion sx={{ margin: 'auto' }}>
         <SuccessAccordionSummary
           expandIcon={<AddIcon />}
           aria-controls="panel1a-content"
@@ -90,8 +96,8 @@ function List() {
         </SuccessAccordionSummary>
         <SuccessAccordionDetails>
           <SuccessTypography>
-          Netflix is a streaming service that offers a wide variety
-           of award-winning TV shows, movies, anime, documentaries,
+            Netflix is a streaming service that offers a wide variety
+            of award-winning TV shows, movies, anime, documentaries,
             and more on thousands of internet-connected devices.
           </SuccessTypography>
         </SuccessAccordionDetails>
@@ -106,12 +112,12 @@ function List() {
         </SuccessAccordionSummary>
         <SuccessAccordionDetails>
           <SuccessTypography>
-          Watch Netflix on your smartphone, tablet, Smart TV,
-           laptop, or streaming device, all for one fixed monthly fee.
+            Watch Netflix on your smartphone, tablet, Smart TV,
+            laptop, or streaming device, all for one fixed monthly fee.
             Plans range from EUR7.99 to EUR11.99 a month. No extra costs, no contracts.
           </SuccessTypography>
         </SuccessAccordionDetails>
-      </SuccessAccordion>  
+      </SuccessAccordion>
       <SuccessAccordion>
         <SuccessAccordionSummary
           expandIcon={<AddIcon />}
@@ -122,18 +128,18 @@ function List() {
         </SuccessAccordionSummary>
         <SuccessAccordionDetails>
           <SuccessTypography>
-          Watch anywhere, anytime. Sign in with your Netflix account to watch instantly 
-          on the web at netflix.com from your personal computer or on any
-           internet-connected device that offers the Netflix app, including smart TVs,
+            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly
+            on the web at netflix.com from your personal computer or on any
+            internet-connected device that offers the Netflix app, including smart TVs,
             smartphones, tablets, streaming media players and game consoles.
-            <br/>
-            <br/>
-            You can also download your favorite shows with the iOS, Android, 
+            <br />
+            <br />
+            You can also download your favorite shows with the iOS, Android,
             or Windows 10 app. Use downloads to watch while you're on the go
-             and without an internet connection. Take Netflix with you anywhere.
+            and without an internet connection. Take Netflix with you anywhere.
           </SuccessTypography>
         </SuccessAccordionDetails>
-      </SuccessAccordion>  
+      </SuccessAccordion>
       <SuccessAccordion>
         <SuccessAccordionSummary
           expandIcon={<AddIcon />}
@@ -144,12 +150,12 @@ function List() {
         </SuccessAccordionSummary>
         <SuccessAccordionDetails>
           <SuccessTypography>
-          Netflix is flexible. There are no pesky contracts and no commitments.
-           You can easily cancel your account online in two clicks.
+            Netflix is flexible. There are no pesky contracts and no commitments.
+            You can easily cancel your account online in two clicks.
             There are no cancellation fees – start or stop your account anytime.
           </SuccessTypography>
         </SuccessAccordionDetails>
-      </SuccessAccordion>  
+      </SuccessAccordion>
       <SuccessAccordion>
         <SuccessAccordionSummary
           expandIcon={<AddIcon />}
@@ -160,12 +166,12 @@ function List() {
         </SuccessAccordionSummary>
         <SuccessAccordionDetails>
           <SuccessTypography>
-          Netflix has an extensive library of feature films,
-           documentaries, TV shows, anime, award-winning Netflix originals, 
-           and more. Watch as much as you want, anytime you want.
+            Netflix has an extensive library of feature films,
+            documentaries, TV shows, anime, award-winning Netflix originals,
+            and more. Watch as much as you want, anytime you want.
           </SuccessTypography>
         </SuccessAccordionDetails>
-      </SuccessAccordion>  
+      </SuccessAccordion>
       <SuccessAccordion>
         <SuccessAccordionSummary
           expandIcon={<AddIcon />}
@@ -176,17 +182,17 @@ function List() {
         </SuccessAccordionSummary>
         <SuccessAccordionDetails>
           <SuccessTypography>
-          The Netflix Kids experience is included in your membership
-           to give parents control while kids enjoy family-friendly 
-           TV shows and movies in their own space.
-           <br/>
-           <br/>
-           Kids profiles come with PIN-protected parental controls that
+            The Netflix Kids experience is included in your membership
+            to give parents control while kids enjoy family-friendly
+            TV shows and movies in their own space.
+            <br />
+            <br />
+            Kids profiles come with PIN-protected parental controls that
             let you restrict the maturity rating of content kids can watch and
-             block specific titles you don`t want kids to see.
+            block specific titles you don`t want kids to see.
           </SuccessTypography>
         </SuccessAccordionDetails>
-      </SuccessAccordion>  
+      </SuccessAccordion>
       <SuccessAccordion>
         <SuccessAccordionSummary
           expandIcon={<AddIcon />}
@@ -197,18 +203,18 @@ function List() {
         </SuccessAccordionSummary>
         <SuccessAccordionDetails>
           <SuccessTypography>
-          Watch Netflix on your smartphone, tablet, Smart TV,
-           laptop, or streaming device, all for one fixed monthly fee.
+            Watch Netflix on your smartphone, tablet, Smart TV,
+            laptop, or streaming device, all for one fixed monthly fee.
             Plans range from EUR7.99 to EUR11.99 a month. No extra costs, no contracts.
           </SuccessTypography>
         </SuccessAccordionDetails>
-      </SuccessAccordion>  
-        <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-        <SuccessTextField id="filled-basic" label="Email adress" variant="filled" />
-        <SuccessButton variant="contained">Get Started {'>'}</SuccessButton>
-
-
-   </>
+      </SuccessAccordion>
+      <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+      <SuccessTextField id="filled-basic" label="Email adress" variant="filled" />
+      <SuccessButton variant="contained">Get Started {'>'}</SuccessButton>
+    </Container>
+    </Box>
+  
   );
 }
 

@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 import { ReactElement } from 'react';
 import Link from '@mui/material/Link';
 import { grey } from '@mui/material/colors';
-import Box from '@mui/material/Box';
+import { Container } from '@mui/material';
 
 
 const SuccessLink = styled(Link)(({ theme }) => ({
@@ -13,7 +13,8 @@ const SuccessLink = styled(Link)(({ theme }) => ({
 
 function Footer():ReactElement {
     return (
-        <>
+      <Container maxWidth="xl">
+
         <Stack
   direction="column"
   alignContent="center"
@@ -108,7 +109,7 @@ Contact Us
 </Stack>
 </Stack>
 </Stack>
-</>
+</Container>
     );
 }
 export default Footer;
