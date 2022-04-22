@@ -16,7 +16,7 @@ const WrapperContent: React.FC<PropsWithChildren<HeaderProps>> =  ({children}) =
             backgroundColor: '#000',  
             margin:"50px 0",
             borderBottom: "8px solid #222"
-          }}>      <Container maxWidth="xl">
+          }}>      <Container maxWidth="lg">
 
             {children}
             </Container>

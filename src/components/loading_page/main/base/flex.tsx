@@ -13,7 +13,7 @@ const Flex: React.FC<PropsWithChildren<HeaderProps>> =  ({children}) => {
              justifyContent="center"
              alignItems="center"
              spacing={6}
-             padding="50px"
+             padding="0 0 50px 0"
             >
             {children}
         </Stack>
